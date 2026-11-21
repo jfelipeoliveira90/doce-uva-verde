@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="62 90 280 210" role="img" aria-label="Ilustração de caixa de presente com doces">
+  <defs>
+    <linearGradient id="box" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3DCC6"/>
+      <stop offset="1" stop-color="#E3BE9C"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F9EDDD"/>
+      <stop offset="1" stop-color="#EBD0B4"/>
+    </linearGradient>
+    <radialGradient id="glow6" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F8E3CE" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F8E3CE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="200" cy="256" rx="98" ry="13" fill="#8B6B4A" opacity="0.13"/>
+  <!-- box -->
+  <path d="M108 176h184v62c0 6-4 10-10 10H118c-6 0-10-4-10-10z" fill="url(#box)"/>
+  <path d="M96 158h208v24c0 5-4 8-9 8H105c-5 0-9-3-9-8z" fill="url(#lid)"/>
+  <path d="M96 158h208v8H96z" fill="#FBF1E4"/>
+  <path d="M188 176h24v72h-24z" fill="#F0AEB9" opacity="0.85"/>
+  <!-- ribbon bow -->
+  <g transform="translate(200 152)">
+    <path d="M-4 0c-16-4-32-18-28-30 12-4 28 10 32 26z" fill="#F3B7C1"/>
+    <path d="M4 0c16-4 32-18 28-30-12-4-28 10-32 26z" fill="#EFA6B3"/>
+    <circle cx="0" cy="2" r="7" fill="#E9929F"/>
+  </g>
+  <!-- little candies peeking -->
+  <g>
+    <circle cx="126" cy="152" r="9" fill="#F7E6CD" stroke="#E0BE97"/>
+    <circle cx="274" cy="150" r="9" fill="#F7E6CD" stroke="#E0BE97"/>
+  </g>
+  <!-- tag -->
+  <g transform="translate(266 214) rotate(9)">
+    <path d="M0 0h44v28H0z" fill="#FFF9EE" stroke="#E2C7A9"/>
+    <path d="M4 8h36M4 15h28M4 22h20" stroke="#D8B695" stroke-width="1.6" stroke-linecap="round"/>
+    <circle cx="4" cy="4" r="3" fill="#E9A6B3"/>
+  </g>
+</svg>

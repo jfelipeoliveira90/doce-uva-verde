@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <script>document.documentElement.classList.add("js");</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cardápio — Doce Uva Verde</title>
+  <meta name="description" content="Cardápio da Doce Uva Verde: bolos de camadas, tortas, brigadeiros gourmet, cupcakes, cookies e kits para presente. Encomendas pelo WhatsApp.">
+  <meta name="theme-color" content="#fbf5ea">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+  <div class="announce">
+    <span>Encomendas com 48h de antecedência</span>
+    <span class="dot" aria-hidden="true"></span>
+    <span>Entrega e retirada com hora marcada</span>
+    <span class="dot" aria-hidden="true"></span>
+    <a href="https://www.instagram.com/doceuvaverde/" data-ig target="_blank" rel="noopener">@doceuvaverde</a>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html" aria-label="Doce Uva Verde — página inicial">
+        <img class="brand__mark" src="assets/img/logo.png" alt="" width="54" height="54">
+        <span class="brand__word">
+          <strong>Doce Uva Verde</strong>
+          <span>Confeitaria Artesanal</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a class="nav__link" href="index.html">Início</a>
+        <a class="nav__link" href="cardapio.html" aria-current="page">Cardápio</a>
+        <a class="nav__link" href="sobre.html">Nossa história</a>
+        <a class="nav__link" href="contato.html">Contato</a>
+        <a class="btn btn--primary btn--small" href="#" data-wa>Encomendar</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--primary btn--small" href="#" data-wa>
+          Fazer encomenda
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap page-hero__grid">
+        <div data-reveal>
+          <p class="eyebrow">Cardápio</p>
+          <h1>Feito para <em>dividir</em> (ou não).</h1>
+          <p>
+            Doces artesanais em tamanhos para todos os momentos: do brigadeiro de
+            depois do almoço ao bolo inteiro da comemoração. Tudo sob encomenda,
+            preparado na véspera da entrega.
+          </p>
+        </div>
+        <div class="page-hero__aside" data-reveal data-reveal-delay="120">
+          <span><strong>48h</strong> de antecedência</span>
+          <span><strong>Entrega</strong> ou retirada</span>
+          <span><strong>Personalização</strong> de sabor e acabamento</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="filters" role="group" aria-label="Filtrar o cardápio por categoria">
+          <button class="filter" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter" type="button" data-filter="bolos" aria-pressed="false">Bolos e tortas</button>
+          <button class="filter" type="button" data-filter="docinhos" aria-pressed="false">Brigadeiros e docinhos</button>
+          <button class="filter" type="button" data-filter="cupcakes" aria-pressed="false">Cupcakes</button>
+          <button class="filter" type="button" data-filter="cookies" aria-pressed="false">Cookies</button>
+          <button class="filter" type="button" data-filter="kits" aria-pressed="false">Kits e presentes</button>
+        </div>
+
+        <div class="menu-grid">
+          <!-- bolos -->
+          <article class="menu-item" data-category="bolos" data-reveal>
+            <div class="menu-item__media">
+              <img src="assets/img/il-bolo.svg" alt="Bolo de camadas com chantilly e uvas verdes" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Bolo de camadas</h3>
+              <p class="menu-item__desc">Massa amanteigada de baunilha, três camadas de recheio e acabamento com frutas frescas. Sabores: ninho com morango, brigadeiro, doce de leite com nozes.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>a partir de</small>R$ 120</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar o bolo de camadas da Doce Uva Verde. Pode me passar os tamanhos e sabores?">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="bolos" data-reveal data-reveal-delay="60">
+            <div class="menu-item__media">
+              <img src="assets/img/il-torta.svg" alt="Torta artesanal com uvas verdes" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Torta de uvas</h3>
+              <p class="menu-item__desc">Base crocante, creme de baunilha e uvas verdes frescas. A assinatura da casa, doce na medida e bonita na mesa.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>a partir de</small>R$ 110</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar a torta de uvas da Doce Uva Verde. Qual o prazo e os tamanhos?">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="bolos" data-reveal data-reveal-delay="120">
+            <div class="menu-item__media">
+              <img src="assets/img/il-bolo.svg" alt="Bolo caseiro com cobertura cremosa" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Bolo de cenoura</h3>
+              <p class="menu-item__desc">O clássico de cozinha de vó: massa úmida de cenoura com ganache de chocolate meio amargo. Formato retangular, serve 12 fatias.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>a partir de</small>R$ 78</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar o bolo de cenoura com ganache da Doce Uva Verde.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- docinhos -->
+          <article class="menu-item" data-category="docinhos" data-reveal>
+            <div class="menu-item__media">
+              <img src="assets/img/il-brigadeiro.svg" alt="Brigadeiros gourmet em forminhas" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Brigadeiro gourmet</h3>
+              <p class="menu-item__desc">Chocolate meio amargo, textura de ganache e granulado belga. Caixa com 12 unidades, embalagem de presente.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>caixa com 12</small>R$ 58</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar uma caixa de brigadeiros gourmet da Doce Uva Verde.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="docinhos" data-reveal data-reveal-delay="60">
+            <div class="menu-item__media">
+              <img src="assets/img/il-brigadeiro.svg" alt="Docinhos de festa variados" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Docinhos de festa</h3>
+              <p class="menu-item__desc">Brigadeiro, beijinho, casadinho e uva ao leite. Escolha até três sabores no cento — ideal para festas e mesas de doces.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>cento</small>R$ 96</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar docinhos de festa da Doce Uva Verde. Quais sabores vocês têm?">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="docinhos" data-reveal data-reveal-delay="120">
+            <div class="menu-item__media">
+              <img src="assets/img/il-brigadeiro.svg" alt="Caixa grande de brigadeiros" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Caixa presenteável</h3>
+              <p class="menu-item__desc">24 brigadeiros em caixa rígida com laço e cartão escrito à mão. Combina sabores tradicional, pistache e café.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>caixa com 24</small>R$ 105</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar a caixa de 24 brigadeiros da Doce Uva Verde.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- cupcakes -->
+          <article class="menu-item" data-category="cupcakes" data-reveal>
+            <div class="menu-item__media">
+              <img src="assets/img/il-cupcake.svg" alt="Cupcakes com glacê rosado e uva no topo" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Cupcakes clássicos</h3>
+              <p class="menu-item__desc">Glacê de manteiga (baunilha ou framboesa), massa fofinha e decoração com fruta. Caixa com 6 ou 12 unidades.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>caixa com 6</small>R$ 72</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar cupcakes da Doce Uva Verde. Quais sabores estão disponíveis?">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="cupcakes" data-reveal data-reveal-delay="60">
+            <div class="menu-item__media">
+              <img src="assets/img/il-cupcake.svg" alt="Mini cupcakes para festa" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Mini cupcakes</h3>
+              <p class="menu-item__desc">Versão de uma mordida, perfeita para mesa de festa e eventos. Mínimo de 24 unidades, sabores combinados.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>a partir de</small>R$ 120</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero um orçamento de mini cupcakes para uma festa.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- cookies -->
+          <article class="menu-item" data-category="cookies" data-reveal>
+            <div class="menu-item__media">
+              <img src="assets/img/il-cookie.svg" alt="Cookies artesanais com gotas de chocolate" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Cookies de chocolate</h3>
+              <p class="menu-item__desc">Casquinha crocante, centro macio e gotas de chocolate meio amargo. Caixa com 6 unidades.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>caixa com 6</small>R$ 48</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar uma caixa de cookies da Doce Uva Verde.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="cookies" data-reveal data-reveal-delay="60">
+            <div class="menu-item__media">
+              <img src="assets/img/il-cookie.svg" alt="Cookie recheado" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Cookie recheado</h3>
+              <p class="menu-item__desc">Recheio de doce de leite ou nutella, assado na hora. Vendido por unidade, mínimo de 6.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>unidade</small>R$ 14</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar cookies recheados da Doce Uva Verde.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- kits -->
+          <article class="menu-item" data-category="kits" data-reveal>
+            <div class="menu-item__media">
+              <img src="assets/img/il-kit.svg" alt="Caixa de presente com doces e cartão" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Kit café da tarde</h3>
+              <p class="menu-item__desc">Seis brigadeiros, quatro cookies e dois mini bolos, em caixa com laço. Um presente que chega pronto para servir.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>caixa fechada</small>R$ 89</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero encomendar o kit café da tarde da Doce Uva Verde.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="kits" data-reveal data-reveal-delay="60">
+            <div class="menu-item__media">
+              <img src="assets/img/il-kit.svg" alt="Kit presente com doces finos" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Kit presente</h3>
+              <p class="menu-item__desc">Caixa média com doces finos, cartão personalizado e embalagem especial. Escolha os sabores na hora do pedido.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>caixa média</small>R$ 140</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero montar um kit presente com a Doce Uva Verde.">Encomendar
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-item" data-category="kits" data-reveal data-reveal-delay="120">
+            <div class="menu-item__media">
+              <img src="assets/img/il-kit.svg" alt="Caixa grande para festa" loading="lazy">
+            </div>
+            <div class="menu-item__body">
+              <h3>Mesa de doces</h3>
+              <p class="menu-item__desc">Composição para festas: 100 docinhos, 12 cupcakes e bolo de camadas. Orçamento personalizado conforme o número de convidados.</p>
+              <div class="menu-item__foot">
+                <span class="menu-item__price"><small>sob orçamento</small>A combinar</span>
+                <a class="menu-item__order" href="#" data-wa data-wa-msg="Olá! Quero um orçamento para uma mesa de doces da Doce Uva Verde.">Pedir orçamento
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="menu-note" data-reveal>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 7.5v.5"/></svg>
+          <p>
+            <strong>Valores de referência.</strong> O orçamento final considera tamanho, recheio,
+            acabamento e data da entrega. Personalizações (nome, cor, tema) são combinadas
+            direto pelo WhatsApp — sem compromisso.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="wrap">
+        <div class="band" data-reveal>
+          <div>
+            <p class="eyebrow">Sob medida</p>
+            <h2>Tem uma ideia? A gente testa com você.</h2>
+            <p>
+              Bolo de aniversário com tema, docinhos com as cores da festa, versão sem
+              lactose ou uma receita que só existe na sua família. Conte como você imagina
+              e a gente monta o orçamento.
+            </p>
+            <div class="band__actions">
+              <a class="btn btn--cream" href="#" data-wa data-wa-msg="Olá! Quero um orçamento personalizado para um doce da Doce Uva Verde.">
+                Pedir orçamento
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn--outline" href="contato.html" style="border-color:rgba(255,252,246,.45);color:#fffcf6">Falar com a gente</a>
+            </div>
+          </div>
+          <div class="band__visual">
+            <img src="assets/img/il-cupcake.svg" alt="Cupcake decorado" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/img/logo.png" alt="Doce Uva Verde — Confeitaria Artesanal" loading="lazy" width="96" height="94">
+          <p>Doces artesanais feitos à mão, em pequenas fornadas, sob encomenda.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/doceuvaverde/" data-ig target="_blank" rel="noopener" aria-label="Instagram da Doce Uva Verde">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".9" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" data-wa aria-label="WhatsApp da Doce Uva Verde">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.6 2 2.2 6.4 2.2 11.84c0 1.74.46 3.44 1.32 4.94L2.1 22l5.36-1.4a9.84 9.84 0 0 0 4.57 1.16h.01c5.43 0 9.84-4.4 9.84-9.84C21.88 6.4 17.47 2 12.04 2Zm0 17.9h-.01a8.2 8.2 0 0 1-4.17-1.14l-.3-.18-3.1.81.83-3.03-.2-.31a8.14 8.14 0 0 1-1.25-4.32c0-4.52 3.68-8.2 8.2-8.2 2.19 0 4.25.86 5.8 2.4a8.14 8.14 0 0 1 2.4 5.8c0 4.53-3.68 8.2-8.2 8.2Zm4.5-6.14c-.25-.12-1.47-.72-1.7-.8-.22-.09-.39-.13-.55.12-.16.25-.63.8-.77.96-.14.16-.28.18-.53.06-.25-.12-1.06-.39-2.01-1.24-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.01-.39.11-.51.11-.11.25-.28.37-.42.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.55-1.34-.76-1.83-.2-.48-.4-.42-.55-.42h-.47c-.16 0-.43.06-.65.3-.22.25-.86.84-.86 2.05s.88 2.38 1 2.55c.12.16 1.73 2.64 4.19 3.7.59.25 1.04.4 1.4.51.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.67-1.18.2-.58.2-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Navegue</h4>
+          <ul class="footer__list">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="sobre.html">Nossa história</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Cardápio</h4>
+          <ul class="footer__list">
+            <li><a href="cardapio.html#bolos">Bolos e tortas</a></li>
+            <li><a href="cardapio.html#docinhos">Brigadeiros</a></li>
+            <li><a href="cardapio.html#cupcakes">Cupcakes</a></li>
+            <li><a href="cardapio.html#kits">Kits e presentes</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__title">Encomendas</h4>
+          <ul class="footer__list">
+            <li><a href="#" data-wa>WhatsApp <span data-wa-label>(11) 99999-9999</span></a></li>
+            <li>Segunda a sábado · 9h às 18h</li>
+            <li>Entrega e retirada com hora marcada</li>
+            <li>Pedidos com 48h de antecedência</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> Doce Uva Verde · Confeitaria Artesanal</span>
+        <span>Feito com carinho, em pequenas fornadas.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

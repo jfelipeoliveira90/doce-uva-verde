@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 87 280 210" role="img" aria-label="Ilustração de torta com uvas verdes">
+  <defs>
+    <linearGradient id="crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E5BC85"/>
+      <stop offset="1" stop-color="#C79157"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFF6E6"/>
+      <stop offset="1" stop-color="#F4DFC2"/>
+    </linearGradient>
+    <radialGradient id="grapeT" cx="34%" cy="28%" r="75%">
+      <stop offset="0" stop-color="#CBDF85"/>
+      <stop offset="1" stop-color="#7FA83F"/>
+    </radialGradient>
+    <radialGradient id="glow5" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#F7E3CC" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F7E3CC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="200" cy="252" rx="104" ry="13" fill="#8B6B4A" opacity="0.13"/>
+  <!-- tart base -->
+  <path d="M96 168h208l-22 66c-2 7-8 10-15 10H133c-7 0-13-3-15-10z" fill="url(#crust)"/>
+  <path d="M96 168h208v10H96z" fill="#D9A96F"/>
+  <g fill="#B98448" opacity="0.7">
+    <path d="M118 178l-10 58h6l11-58z"/>
+    <path d="M282 178l10 58h-6l-11-58z"/>
+  </g>
+  <ellipse cx="200" cy="168" rx="104" ry="20" fill="#E9C79B"/>
+  <ellipse cx="200" cy="166" rx="96" ry="16" fill="url(#fill)"/>
+  <!-- grapes -->
+  <g fill="url(#grapeT)" stroke="#6E9831" stroke-width="1.2">
+    <circle cx="166" cy="156" r="13"/><circle cx="190" cy="150" r="13"/>
+    <circle cx="214" cy="152" r="13"/><circle cx="238" cy="158" r="12"/>
+    <circle cx="178" cy="172" r="12"/><circle cx="204" cy="170" r="12"/>
+    <circle cx="228" cy="174" r="11"/><circle cx="192" cy="184" r="10"/>
+  </g>
+  <path d="M182 142c2-12 12-20 24-22-1 12-10 20-21 23" fill="#8CB548"/>
+  <path d="M188 146c-8-8-11-18-9-26 7 7 11 16 12 25" fill="#7FA83F"/>
+  <!-- flower -->
+  <g transform="translate(248 140)">
+    <g fill="#F7CBD4">
+      <circle cx="0" cy="-7" r="6"/><circle cx="6" cy="2" r="6"/>
+      <circle cx="-6" cy="2" r="6"/><circle cx="3" cy="8" r="5"/><circle cx="-3" cy="8" r="5"/>
+    </g>
+    <circle cx="0" cy="1" r="3.2" fill="#E7A93F"/>
+  </g>
+</svg>
