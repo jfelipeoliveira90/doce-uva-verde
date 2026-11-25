@@ -6,8 +6,8 @@
    ========================================================================== */
 
 const BRAND = {
-  whatsapp: "5511999999999",
-  whatsappLabel: "(11) 99999-9999",
+  whatsapp: "5511969677316",
+  whatsappLabel: "(11) 96967-7316",
   instagram: "https://www.instagram.com/doceuvaverde/",
 };
 
@@ -122,7 +122,7 @@ function initFilters() {
     });
   });
 
-  // deep links such as cardapio.html#kits
+  // deep links such as cardapio.html#tradicional
   const hash = window.location.hash.replace("#", "");
   const initial = hash && document.querySelector(`.filter[data-filter="${hash}"]`);
   if (initial) apply(initial);
@@ -204,11 +204,11 @@ function initMisc() {
     el.textContent = new Date().getFullYear();
   });
 
-  // encomendas precisam de 48h de antecedência
+  // encomendas precisam de 3 dias de antecedência
   const dateField = document.querySelector('input[name="data"]');
   if (dateField) {
     const min = new Date();
-    min.setDate(min.getDate() + 2);
+    min.setDate(min.getDate() + 3);
     dateField.min = min.toISOString().slice(0, 10);
   }
 }
